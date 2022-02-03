@@ -33,6 +33,8 @@ button{
     justify-content: center;
 }
 .logo{
+    max-width: 60%;
+    max-height: 60%;
     width: 1000px;
     height: 1000px;
     display: block;
