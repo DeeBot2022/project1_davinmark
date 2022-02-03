@@ -1,5 +1,5 @@
 *{
-    background-color: #243462;
+    background-color: #00030c;
 }
 body{
     padding: 0px;
@@ -15,17 +15,57 @@ h1{
 }
 button{
     width: 200px;
-    height: 100px;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+    height: 75px;
+    color: #9867c5;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
     text-decoration: brown;
-    background-color: #e2c389;
+    background-color: #fce205;
     border-radius: 31px;
     box-shadow: 0px 0px 10px 9px #00000050;
+    border: solid 2px #9867c5;
 }
 .infomation{
     display: flex;
     max-width: 85%;
     margin:0 auto;
     justify-content: center;
+}
+.logo{
+    width: 1000px;
+    height: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.frontpix{
+    max-width: 95%;
+    max-height: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 31px;
+    border: solid 10px #9867c5;
+}
+p{
+    color: white;
+    text-align: center;
+}
+a{
+    color:white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+input{
+    float: right;
+    padding: 6px;
+    border: transparent 4px #9867c5;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
